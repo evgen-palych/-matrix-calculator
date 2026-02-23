@@ -161,9 +161,7 @@ const MatrixComponent = () => {
 };
 
 const calculateDeterminant = (matrix: number[][]) => {
-  // C++ code to calculate determinant
-  // For simplicity, this example uses a simple 2x2 matrix determinant calculation
-  // In a real-world scenario, you would need to implement a more complex algorithm to handle larger matrices
+
   return matrix[0][0] * matrix[1][1] - matrix[0][1] * matrix[1][0];
 };
 
